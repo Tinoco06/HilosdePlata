@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto desarrollo web</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="validarcontacto.js"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="img/logo_org.jpg" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="ACN.html">Nosotros</a></li>
+          <li><a href="ProgramasASC.html">Nuestros programas</a></li>
+          <li><a href="comoayudar.html">Como ayudar</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="Eventos.html">Eventos</a></li>
+          <li><a href="contactenos.html">Contacto</a></li>
+          <li><a href="donaciones.html">Donaciones</a></li>
+          <li><a href="Preguntasfrecuentes.html">Preguntas frecuentes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+
+      <section class="contact-form">
+        <h2 id="title-contacto">Gracias por tu deseo de ponerte en contacto con Hilos de Plata.</h2>
+        <form action="contactenos.html" method="get" class="row fullwidth flex-center" id="formulario">
+            <section class="col-6 col-6-m col-4-l">
+                <label for="txtNombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+                <label for="txtEmail" >Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" />
+                <label for="txtTelefono">Teléfono</label>
+                <input type="tel" name="telefono" id="telefono" placeholder="98765621" />
+                <label for="txtMensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <button type="submit" id="btnEnviar" name="btnEnviar">Enviar</button>
+            </section>
+        </form>
+        <img src="img/abuelos.png" alt="abuelos" id="abuelos">
+    </section>
+
+    </div>
+    
+  
+      <footer>
+        <div> 
+          <p>Siguenos en nuestras redes sociales</p> 
+          <img src="img/facebook.png" alt="Facebook" />
+      </div>
+        <a href="https://maps.app.goo.gl/zy2Qqa635ZQDpjSe7"  target="_blank">Estamos ubicados:Barrio La Granja, segunda avenida, atrás del antiguo Crédito Prendario Popular, enfrente de la Iglesia Adventista. Comayagüela, Honduras
+          </a>
+          <div>
+              <p>Horario:Abierto de lunes a domingo en horarios de 9:00 - 12:00 y 13:00 - 16:00</p>
+          </div>
+          <p>Todos los Derechos Reservados © 2023</p>
+        </div>
+      </footer>
+    
+    </body>
+  </html>
